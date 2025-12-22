@@ -129,4 +129,4 @@ Returns:
 - [ ] Publish as an npm package (`npx mock-server`)
 
 ## 🛠 Maintainer
-Built with ❤️ by Balu
+Built with ❤️ by Balanjaneya Sharma
