@@ -7,7 +7,7 @@ A lightweight CLI tool to spin up a mock API server instantly — no backend req
 ## 🚀 Features
 
 - ✅ Supports all HTTP methods: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`
-- 🧠 Dynamic data generation using a custom JSON schema (faker.js powered)
+- 🧠 Dynamic data generation using a custom JSON schema
 - 🔒 Payload validation for `POST` and `PUT` requests
 - 📦 Simple CLI — init, configure, start
 - 🔧 Static or dynamic responses — your choice per route
