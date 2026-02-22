@@ -1,6 +1,6 @@
 # 🧪 Mock API Server
 
-A lightweight CLI tool to spin up a mock API server instantly — no backend required. Define your routes in a JSON file and get realistic, schema-driven dynamic responses powered by faker.js.
+A lightweight CLI tool to spin up a mock API server instantly — no backend required. Define your routes in a JSON file and get realistic, schema-driven dynamic responses.
 
 ---
 
