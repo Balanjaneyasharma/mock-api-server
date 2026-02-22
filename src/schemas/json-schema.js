@@ -1,9 +1,10 @@
 /**
  * @typedef {Object} StringSchema
  * @property {'string'} type - The type of the value (string).
- * @property {'email' | 'phoneNumber' | 'date' | 'date-time'} [format] - Optional format (email, phone number, date, date-time).
- * @property {number} [maxItems] - Maximum length of the string.
- * @property {number} [minItems] - Minimum length of the string.
+ * @property {'email' | 'phoneNumber' | 'date' | 'date-time', 'name'} [format] - Optional format (email, phone number, date, date-time).
+ * @property {number} [maxLength] - Maximum length of the string.
+ * @property {number} [minLength] - Minimum length of the string.
+ * @property {string[]} [enum] - If provided, randomly picks one of these values
  */
 
 /**
@@ -11,7 +12,9 @@
  * @property {'number'} type - The type of the value (number).
  * @property {number} [min] - Minimum value.
  * @property {number} [max] - Maximum value.
+ * @property {number[]} [enum] - If provided, randomly picks one of these values
  */
+
 
 /**
  * @typedef {Object} BooleanSchema
@@ -45,5 +48,5 @@
  */
 
 /**
- * @typedef {StringSchema | NumberSchema | BooleanSchema | NullSchema | ArraySchema | ObjectSchema | IDSchema} JSONSchema
+ * @typedef {StringSchema | NumberSchema | BooleanSchema | NullSchema  | ArraySchema | ObjectSchema | IDSchema} JSONSchema
  */
